@@ -3,3 +3,9 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+# config/routes.yaml
+api_post_post:
+    path:       /api/user
+    controller: App\Controller\UserController::post
+    methods:    POST
